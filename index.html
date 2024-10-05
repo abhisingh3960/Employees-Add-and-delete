@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD And Delete Employee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_conatiner">
+        <div class="emp">
+            <h1>New Employees</h1>
+            <form>
+                <label for="e_name">Enter Name
+                    <input type="text" id="e_name" placeholder="Enter Your Name">
+                </label><br><br>
+
+                <label for="e_profession">Enter Profession
+                    <input type="text" id="e_profession" placeholder="Enter your Profession">
+                </label><br><br>
+
+                <label for="e_age">Enter Age
+                    <input type="number"  id="e_age" placeholder="Enter your Age">
+                </label>
+                <div class="add_btn" id="add_btn">
+                    <button>Add User</button>
+                </div>
+                <span id="error_msg"></span>
+            </form>
+            <h3 id="h3" class="h3">Added Employees</h3>
+            <span id="AddEmp"></span>
+            <h6 id="h6" class="h6">You have 0 Employees.</h>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
